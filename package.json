@@ -1,0 +1,33 @@
+{
+  "name": "kickstart-nuxt",
+  "version": "1.0.3",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contentstack/kickstart-nuxt"
+  },
+  "description": "Contentstack Kickstarts are the minimum amount of code needed to connect to Contentstack to Nuxt.",
+  "author": "Tim Benniks <tim.benniks@contentstack.com>",
+  "annotation": "Lo Etheridge <lo.etheridge@contentstack.com>",
+  "homepage": "https://contentstack.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@contentstack/delivery-sdk": "^4.7.1",
+    "@contentstack/live-preview-utils": "^3.2.4",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@timbenniks/contentstack-endpoints": "^1.0.10",
+    "nuxt": "^3.17.5",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3"
+  }
+}
